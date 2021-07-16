@@ -25,6 +25,19 @@
 
 # Sample code
 
+```
+let line = ""; num = "#"; space = " "; ver = 0; hor = 0; size = 8;
+  while (ver < size){
+    ver = ver + 1;
+    if (ver % 2 !==0 )
+    console.log((num + space).repeat(size / 2));
+        if (ver % 2 ==0 )
+    console.log((space + num).repeat(size / 2));
+    while (hor < size){
+      hor = hor + 1;
+    }
+  }
+```
 # Work experience
 
 # Education
