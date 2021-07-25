@@ -192,3 +192,24 @@ body {
     font-size: 15px;
     font-weight: 200;
 }
+.footer__content {
+    display: flex;
+}
+.footer__sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36%;
+    min-width: 240px;
+    background-color: #2c323d;
+    color: #ffffff;
+}
+.footer__title {
+    max-width: 524px;
+    color: #2c323d;
+    padding-left: 10%;
+}
+.git_link {
+    color: #2c323d;
+    text-decoration: none;
+}
